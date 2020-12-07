@@ -1,0 +1,49 @@
+
+body
+{
+background-color:#9370DB;
+}/*встановлює колір фону*/
+hr {
+  background-color: #9370DB;
+  border-style: dotted none none;
+  border-color:#F0E68C;
+  border-width:10px;
+  height: 10px;
+  width: 100px;
+  /*встановлює дані  параметри на всі hr*/
+}
+h1 
+{
+  color:#00BFFF;
+}
+.blueh3/*клас,який задає червоний колір*/
+{
+  color:#B0C4DE;
+}
+
+.cursive/*встановлює шифр*/
+{
+  font-family: cursive, serif;
+}
+.img
+{
+  background-image:#F0E68C;
+  height: 50%;
+  width: 50%;
+}
+.text
+{
+  text-decoration: none;
+}
+#name
+{
+  font-size:60pt;
+}
+#name
+{
+  font-size:15pt;
+}
+.yellow:hover
+{
+  color:#F0E68C;
+}
