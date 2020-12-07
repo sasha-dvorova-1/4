@@ -1,0 +1,120 @@
+
+body
+{
+background-color:#9370DB;
+  margin:0;
+}/*встановлює колір фону*/
+hr {
+  background-color: #9370DB;
+  border-style: dotted none none;
+  border-color:#F0E68C;
+  border-width:10px;
+  height: 10px;
+  width: 100px;
+  /*встановлює дані  параметри на всі hr*/
+}
+h1
+{
+  color:#00BFFF;
+}
+.blueh3
+{
+  color:#B0C4DE;
+}
+
+.cursive/*встановлює шифр*/
+{
+  font-family: cursive, serif;
+}
+.img
+{
+  position: relative;
+  left:30%;
+  background-image:#F0E68C;
+  height: 40%;
+  width: 40%;
+}
+.text
+{
+  text-decoration: none;
+}
+
+#name
+{
+  font-size:15pt;
+}
+.yellow:hover
+{
+  color:#F0E68C;
+}
+
+     .box1 {
+align-items: center;
+       height: auto;
+       text-align: center;
+       width: 48%;
+}
+#line {
+  position: relative;
+  height: 400px;
+  width: 0px;
+  border: solid;
+  border-color: #F0E68C;
+}
+
+     #bt {
+       display: flex;
+       justify-content: space-between;
+     }
+    nav {/*задаємо параметри для блоку навігації*/
+            background-color: lightskyblue;
+            height: 75px;
+          }
+
+    header {/*задаємо параметри для блока "шапки"*/
+            height: 65px;
+            text-align: center;
+          }
+
+    section {/*задаємо параметри для блоку*/
+            height:600px;
+            background-color: #F0E68C ;
+            text-align: center;
+        margin-bottom: 50px;
+          }
+
+    .prefooter {/*задаємо параметри для блоку*/
+            height: 40px;
+             text-align: center;
+          }
+
+    footer {/*задає «підвал» сайту або розділу, в ньому може розташовуватися ім'я автора, дата документа, контактна і правова інформація.*/
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          text-align: center;
+          }
+
+  .box {
+            height: 400px;
+            background-color:#9370DB;
+            width: 48%;
+            margin-left: 25px;
+          }
+  .box2 {
+            height: 400px;
+            background-color:#9370DB;
+            width: 48%;
+            margin-right: 25px;
+          }
+  #yellow {
+                margin: 0;
+                height: 50px;
+                background-color: #F0E68C;
+                margin-bottom: 50px;
+              }
+  #bt {
+            display: flex;/*багатоцільова властивість, яка визначає, як елемент повинен бути показаний в документі.*/
+            justify-content: space-between;/*визначає, як браузер розподіляє простір між та навколо елементів контенту уздовж головної осі flex контейнера, або уздовж малої осі grid контейнера.В даному випадку рівномірно розподіляє всі елементи по ширині flex-блоку. Перший елемент спочатку, останній в кінці */
+          }
